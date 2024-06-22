@@ -7,8 +7,8 @@ import './CSS/Modal.css'
         <div className="modalContainer">
             <button onClick={()=>props.closeModal(false)}>X</button>
             <div className='title'>
-                <h1>humidity</h1>
-                  <h1>{props.Humidity}%</h1>
+                <h1 className='head'>humidity</h1>
+                  <h1 className='head'>{props.Humidity}%</h1>
             </div>
             
         </div>

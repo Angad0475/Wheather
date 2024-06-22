@@ -1,7 +1,7 @@
 .weather-container{
     position: relative;
     display:flex;
-    top:180px;
+    top:160px;
     right:-500px;
     width:500px;
     border-radius: 15px;
@@ -118,6 +118,15 @@ background-color: var(--i-color);
 #d:hover{
     background-color: #7500fc;
     transition: all 0.3s;
+}
+.details-modal{
+    display:flex;
+    position:relative;
+    top:170px;
+    left:550px;
+    justify-content: space-around;
+    width:30%;
+    flex-grow: 0;
 }
 
 

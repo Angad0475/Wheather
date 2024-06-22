@@ -1,3 +1,6 @@
 .modalBackground{
     animation: modal 1s linear;
 }
+.head{
+    color: var(--primary-text-color);
+}

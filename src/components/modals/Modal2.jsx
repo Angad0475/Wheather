@@ -9,7 +9,7 @@ function Modal2(props) {
         </div>
         <div className="DESCRIPTION">
             
-            <h1>{props.Desc}</h1>
+            <h1 className="head2">{props.Desc}</h1>
         </div>
         
     </div>

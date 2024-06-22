@@ -20,7 +20,7 @@ body{
   --l-color:white;
   --t-color:white;
   --i-color:white;
-  --d-color:yellow
+  --d-color:yellow;
 }
 
 [data-theme="dark"] {
