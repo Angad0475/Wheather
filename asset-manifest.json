@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Wheather/static/css/main.c8fde1f0.css",
+    "main.css": "/Wheather/static/css/main.be23677b.css",
     "main.js": "/Wheather/static/js/main.dce2fd3a.js",
     "static/js/453.97127cc3.chunk.js": "/Wheather/static/js/453.97127cc3.chunk.js",
     "index.html": "/Wheather/index.html",
-    "main.c8fde1f0.css.map": "/Wheather/static/css/main.c8fde1f0.css.map",
+    "main.be23677b.css.map": "/Wheather/static/css/main.be23677b.css.map",
     "main.dce2fd3a.js.map": "/Wheather/static/js/main.dce2fd3a.js.map",
     "453.97127cc3.chunk.js.map": "/Wheather/static/js/453.97127cc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8fde1f0.css",
+    "static/css/main.be23677b.css",
     "static/js/main.dce2fd3a.js"
   ]
 }
