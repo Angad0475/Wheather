@@ -4,7 +4,7 @@ import './CSS/Modal1.css';
   return (
     <div className="body">
         <div className="content">
-            <button onClick={()=>props.cModal1(false)}>X</button>
+            <button onClick={()=>props.cModal1(false)} className="close1">X</button>
             <div className="heading">
                  <h1 className="head1">Wind</h1>
                 <h1 className="head1">{props.Wind} Km/H</h1>

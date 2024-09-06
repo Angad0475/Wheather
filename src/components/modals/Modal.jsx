@@ -5,7 +5,7 @@ import './CSS/Modal.css'
   return (
     <div className='modalBackground'>
         <div className="modalContainer">
-            <button onClick={()=>props.closeModal(false)}>X</button>
+            <button className='close' onClick={()=>props.closeModal(false)}>X</button>
             <div className='title'>
                 <h1 className='head'>humidity</h1>
                   <h1 className='head'>{props.Humidity}%</h1>

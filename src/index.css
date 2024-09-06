@@ -21,6 +21,10 @@ body{
   --t-color:white;
   --i-color:white;
   --d-color:yellow;
+  --w-color:rgba(248, 244, 244, 0.244);
+  --x-color:rgba(243, 71, 71, 0.965);
+  --d-color: #b427fa;
+
 }
 
 [data-theme="dark"] {
@@ -33,6 +37,9 @@ body{
   --t-color:green;
   --i-color:rgb(28, 21, 21);
   --d-color: red;
+  --w-color:hwb(0 87% 9% / 0.165);
+  --x-color:rgba(243, 71, 71, 0.965);
+  --d-color:rgba(227, 226, 226, 0.131);
 }
 
 @keyframes modal{

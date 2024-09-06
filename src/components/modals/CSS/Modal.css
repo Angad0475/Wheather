@@ -1,6 +1,47 @@
 .modalBackground{
-    animation: modal 1s linear;
+    animation: modal 0.5s linear;
+    background-color: var(--w-color);
+    border-radius: 15%;
+    
 }
 .head{
     color: var(--primary-text-color);
+    text-align: center;
+    font-size:22px;
+
 }
+.close{
+    background-color:var(--x-color);
+    color:var(--primary-text-color);
+     float:left;
+}
+
+@media(max-width:400px){
+    .head{
+        font-size:18px;
+    }
+    .modalBackground{
+        width:50%;
+    }
+    
+    
+}
+
+@media(max-width:500px){
+    .head{
+        position:relative;
+        font-size:20px;
+        top:17px
+    }
+    .modalBackground{
+        width:110px;
+        height:6em;
+        
+    }
+}
+
+
+
+
+
+

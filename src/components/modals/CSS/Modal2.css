@@ -1,3 +1,35 @@
 .head2{
     color: var(--primary-text-color);
+    font-size:22px;
+    
+    
 }
+.background{
+    background-color: var(--w-color);
+    border-radius: 15%;
+    animation: modal 0.5s linear;
+    width:150px;
+    font-size:10px;
+    
+}
+.cancel{
+     background-color:var(--x-color);
+    float:left;
+    color:var(--primary-text-color);
+    
+}
+
+@media(max-width:400px){
+    .head2{
+        font-size:18px;
+    }
+    .background{
+        width:70px;
+    }
+}
+@media(max-width:500px){
+    .background{
+        width:100px;
+    }
+}
+

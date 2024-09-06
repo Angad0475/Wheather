@@ -1,53 +1,105 @@
 .toggle-container {
-    position: absolute;
-    top: 2em;
-    right: 33.0em;
+  position: absolute;
+  top: 2em;
+  right: 2em; /* Adjusted to a more consistent and scalable value */
+}
+
+.toggle {
+  visibility: hidden;
+}
+
+.toggle + label {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: var(--primary-text-color);
+  position: relative;
+  left: -46em;
+  transition: left 0.3s ease-in-out;
+}
+
+.toggle + label::before {
+  content: "";
+  height: 1.5em;
+  width: 3.9em;
+  border-radius: 1em;
+  background-color: var(--toggle-bg);
+  transition: background-color 250ms ease-in-out;
+}
+
+.toggle + label::after {
+  content: "";
+  height: 1.3em;
+  width: 1.3em;
+  border-radius: 1em;
+  background-color: var(--toggle-fg);
+  position: relative;
+  left: -2.4em;
+  transition: background-color 250ms ease-in-out, transform 250ms ease-in-out;
+}
+
+.toggle:checked + label::after {
+  transform: translateX(-172%);
+}
+
+span {
+  position: relative;
+  left: 0; /* Set to 0 initially for consistency */
+  display: flex;
+  gap: 18px;
+}
+
+@media (max-width: 1280px){
+  .toggle-container {
+      top: 1.5em;
+      right: -25.1em;
   }
-  
-  .toggle {
-    visibility: hidden;
-  }
-  
+}
+
+@media (max-width: 1024px) {
   .toggle + label {
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
-    cursor: pointer;
-    position:relative;
-    left:-250px;
-    color: var(--primary-text-color);
+      left: -38em;
   }
-  
-  .toggle + label::before {
-    content: "";
-    height: 1.5em;
-    width: 3.9em;
-    border-radius: 1em;
-    background-color: var(--toggle-bg);
+}
 
-    transition: background-color 250ms ease-in-out;
+@media (max-width: 900px) {
+  .toggle + label{
+      left:15em;
   }
-  
-  .toggle + label::after {
-    content: "";
-    height: 1.3em;
-    width: 1.3em;
-    border-radius: 1em;
-    background-color: var(--toggle-fg);
-    position: relative;
-    left: -2.4em;
-    transition: background-color 250ms ease-in-out, transform 250ms ease-in-out;
-  }
-  
-  .toggle:checked + label::after {
-    transform: translateX(-172%);
-  }
-  span{
-    position:relative;
-    left:-71px;
-    display:flex;
-    gap:18px
+}
 
-
+@media (max-width: 800px) {
+  .toggle + label {
+      left: -15em;
+      top:-40px;
   }
-  
+}
+
+@media (max-width: 700px) {
+  .toggle + label {
+      left: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .toggle + label {
+      left: -145px;
+      top:-50px;
+  }
+}
+
+@media (max-width: 500px){
+  .toggle + label {
+      left: -23em;
+      top:-50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .toggle + label {
+      left: -22em;
+      top:-40px;
+  }
+}
+
