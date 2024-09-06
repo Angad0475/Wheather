@@ -91,7 +91,7 @@ span {
 
 @media (max-width: 500px){
   .toggle + label {
-      left: -5em;
+      left: -8em;
       top:-50px;
   }
 }
