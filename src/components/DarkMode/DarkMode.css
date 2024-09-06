@@ -54,7 +54,6 @@ span {
 @media (max-width: 1280px){
   .toggle-container {
       top: 1.5em;
-      right: -25.1em;
   }
 }
 
@@ -66,13 +65,12 @@ span {
 
 @media (max-width: 900px) {
   .toggle + label{
-      left:15em;
+      left:-15em;
   }
 }
 
 @media (max-width: 800px) {
   .toggle + label {
-      left: -15em;
       top:-40px;
   }
 }
@@ -92,14 +90,14 @@ span {
 
 @media (max-width: 500px){
   .toggle + label {
-      left: -23em;
+      left: -5em;
       top:-50px;
   }
 }
 
 @media (max-width: 400px) {
   .toggle + label {
-      left: -22em;
+      left: -4em;
       top:-40px;
   }
 }
