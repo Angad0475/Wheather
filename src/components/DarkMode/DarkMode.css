@@ -52,14 +52,15 @@ span {
 }
 
 @media (max-width: 1280px){
-  .toggle-container {
-      top: 1.5em;
+  .toggle + label{
+      top: -1.5em;
+      left:-28em;
   }
 }
 
 @media (max-width: 1024px) {
   .toggle + label {
-      left: -38em;
+      left: -20em;
   }
 }
 
