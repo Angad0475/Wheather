@@ -15,7 +15,7 @@
   cursor: pointer;
   color: var(--primary-text-color);
   position: relative;
-  left: -30em;
+  left: -34em;
   transition: left 0.3s ease-in-out;
 }
 
