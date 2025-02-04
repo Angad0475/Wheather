@@ -15,6 +15,7 @@
 .close1{
     color:var(--primary-text-color);
     background-color: var(--x-color);
+    cursor:pointer;
     
 }
 @media(max-width:400px){

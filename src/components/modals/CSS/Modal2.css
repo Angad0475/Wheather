@@ -13,9 +13,10 @@
     
 }
 .cancel{
-     background-color:var(--x-color);
+    background-color:var(--x-color);
     float:left;
     color:var(--primary-text-color);
+    cursor:pointer;
     
 }
 

@@ -102,9 +102,13 @@ h2, p {
     
 }
 
+
 #d:hover {
     background-color: #7500fc;
     transition: all 0.3s;
+}
+.h{
+    height:200px;
 }
 
 .details-modal {
@@ -125,7 +129,62 @@ h2, p {
 .details-modal .d {
     font-weight: bolder;
 }
+.h{
+    height:70px
+}
+.loading-screen {
+    position: relative;
+    top: 15em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ /* Optional background */
+    z-index: 9999;
+  }
+  
+  .square-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Individual squares */
+  .square {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    background-color:var(--primary-text-color);
+    opacity: 0;
+    animation: fade 1.2s infinite ease-in-out;
+  }
+  
+  /* Animation delays for each square */
+  .square:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .square:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .square:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  /* Keyframes for fading effect */
+  @keyframes fade {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
 
+  
 /* Media Queries for Responsive Design */
 
 @media(max-width: 900px) {

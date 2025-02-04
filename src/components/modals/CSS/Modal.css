@@ -13,7 +13,8 @@
 .close{
     background-color:var(--x-color);
     color:var(--primary-text-color);
-     float:left;
+    float:left;
+    cursor:pointer;
 }
 
 @media(max-width:400px){
